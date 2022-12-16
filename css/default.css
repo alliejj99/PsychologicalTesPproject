@@ -1,6 +1,12 @@
 /* 전체적인 css */
 
 body {
-    font-family: 'EF_Diary';
-    background-color: pink;
+  font-family: "EF_Diary";
+  background-color: pink;
+}
+
+.commonImg {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
 }

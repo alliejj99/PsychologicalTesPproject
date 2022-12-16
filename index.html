@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/font/fontStylesheet.css" />
     <link rel="stylesheet" href="css/qna.css" />
     <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/result.css">
   </head>
   <body>
     <div class="container">
@@ -43,12 +44,23 @@
 
       <!-- qna -->
       <section id="qna">
+        <div class="status">
+          <div class="statusBar"></div>
+        </div>
         <div class="qBox"></div>
         <div class="answerBox"></div>
       </section>
 
       <!-- result -->
-      <section id="result"></section>
+      <section id="result">
+        <h1>당신의 결과는?</h1>
+        <div class="resultName"></div>
+        <div id="resultImg" class="commonImg">
+          <img src="" alt="" />
+        </div>
+        <div class="resultDesc"></div>
+        <button type="button">공유하기</button>
+      </section>
 
       <!-- script -->
       <script src="./js/start.js" charset="UTF-8"></script>
