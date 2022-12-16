@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'EF_Diary';
+    src: url('EF_Diary.eot');
+    src: url('EF_Diary.eot?#iefix') format('embedded-opentype'),
+        url('EF_Diary.woff2') format('woff2'),
+        url('EF_Diary.woff') format('woff'),
+        url('EF_Diary.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
