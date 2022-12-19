@@ -6,7 +6,6 @@ const endPoint = 12;
 const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 function calResult() {
-  console.log(select);
   var result = select.indexOf(Math.max(...select));
   return result;
 }
