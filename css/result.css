@@ -25,3 +25,21 @@
     color: #FEE500;
     border-color: #FEE500;
 }
+/* shareResult */
+#shareResult {
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 80%;
+}
+.goHome {
+    color: white;
+    background-color: pink;
+    border: 2px solid pink;
+    border-radius: 20px;
+}
+.goHome:hover, .goHome:focus{
+    background-color: whitesmoke;
+    color: pink;
+    border-color: pink;
+}
